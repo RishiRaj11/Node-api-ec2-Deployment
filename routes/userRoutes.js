@@ -41,8 +41,8 @@ router.get("/hi",(req,res)=>{
   return res.send("Hi")
 })
 
-router.get("/test",(req,res)=>{
-  return res.send("test")
+router.get("/test1",(req,res)=>{
+  return res.send("test1")
 })
 
 router.get("/test2",(req,res)=>{
