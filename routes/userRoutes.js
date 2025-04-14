@@ -45,4 +45,8 @@ router.get("/test",(req,res)=>{
   return res.send("test")
 })
 
+router.get("/test2",(req,res)=>{
+  return res.send("test2")
+})
+
 export default router
